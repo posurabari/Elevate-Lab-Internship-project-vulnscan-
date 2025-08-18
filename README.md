@@ -29,7 +29,7 @@ It provides a simple **web interface** to input target URLs and view scan result
 ### Steps
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/web-vulnerability-scanner.git
+https://github.com/posurabari/Elevate-Lab-Internship-project-vulnscan-
 cd web-vulnerability-scanner
 
 # Create virtual environment (optional but recommended)
