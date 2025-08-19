@@ -1,0 +1,10 @@
+default: allow  # or block
+rules:
+  - action: block
+    proto: tcp
+    dst_port: 23       # block Telnet
+  - action: block
+    src_ip: 192.168.1.50   # block a noisy host
+  - action: allow
+    proto: udp
+    dst_port: 53       # always allow DNS
